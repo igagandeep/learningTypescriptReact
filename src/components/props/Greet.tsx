@@ -1,7 +1,7 @@
 
 type GreetProps = {
     name: string
-    messageCount: number
+    messageCount?: number
 }
 
 const Greet = (props: GreetProps) => {
